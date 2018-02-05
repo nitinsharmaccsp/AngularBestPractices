@@ -1,0 +1,3 @@
+<button type="button" class="btn" [ngClass]="buttonColor ? buttonColor : 'btn-primary'" 
+        (click)="onClick($event)"  (blur)="onBlur($event)" >{{buttonLabel}}&nbsp;<i class="fa" [ngClass]="icon"></i>
+</button>
